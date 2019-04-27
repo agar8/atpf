@@ -1,0 +1,32 @@
+#logo {
+	position: relative;
+	background-color: Transparent;
+	border: none;
+  margin: auto;
+  border-radius:5%;
+	-webkit-animation-name: dropdown;
+  -webkit-animation-duration: 0.4s;
+	animation-name: dropdown;
+  animation-duration: 5.0s
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@-webkit-keyframes dropdown{
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes dropdown {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+body {
+  background-color: #5c159d
+}

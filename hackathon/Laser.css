@@ -1,0 +1,37 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img {
+  height: 75%;
+  width: 75%;
+}
+
+body {
+  background-color: #5c159d
+}
+
+.buttondiv{
+	padding-top:30px;
+	text-align: center;
+	
+}
+
+#button {
+	background-color: #319177;
+	border:2px solid black;
+	color:black;
+	padding: 15px 25 px;
+	font-size:16px;
+	font-color: 0000000;
+
+}
+h2{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
